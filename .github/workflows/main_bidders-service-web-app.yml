@@ -95,7 +95,7 @@ jobs:
       - name: Set up environment variables
         run: |
           echo "PYTHONPATH=$GITHUB_WORKSPACE/app" >> $GITHUB_ENV
-          echo "DATABASE_URL=${{ secrets.DATABASE_URL }}" >> $GITHUB_ENV
+          echo "DB_URL=${{ secrets.DATABASE_URL }}" >> $GITHUB_ENV
 
       - name: Login to Azure
         uses: azure/login@v2
