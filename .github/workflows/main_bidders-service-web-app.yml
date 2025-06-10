@@ -100,9 +100,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_B24F0E425052426D9E92085F5007ABEC }} 
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_060740F526FE49AD86BDA103C0FCCC8D }} 
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_7FB15EBA3B9F47E6AF7F497B570405D5 }}
           allow-no-subscriptions: false
           enable-AzPSSession: false
           environment: azurecloud
